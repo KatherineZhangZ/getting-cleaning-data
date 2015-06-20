@@ -43,13 +43,13 @@ setwd("/Users/katherinezhang/Desktop/Coursera R/UCI HAR Dataset")
 	tidyData1<-tidyData1[,names(tidyData1)!="activityId"];
 
 #4. Appropriately labels the data set with descriptive variable names
-  CleanNm <- gsub("^t","time",names(tidyData1))
-  CleanNm <- gsub("Acc","Accelerometer",CleanNm)
-  CleanNm <- gsub("^f","frequency",CleanNm)
-  CleanNm <- gsub("Gyro","Gyroscope",CleanNm)
-  CleanNm <- gsub("Mag","Magnitude",CleanNm)
-  CleanNm <- gsub("BodyBody","Body",CleanNm)
-  names(tidyData1) <- CleanNm
+       CleanNm <- gsub("^t","time",names(tidyData1))
+       CleanNm <- gsub("Acc","Accelerometer",CleanNm)
+       CleanNm <- gsub("^f","frequency",CleanNm)
+       CleanNm <- gsub("Gyro","Gyroscope",CleanNm)
+       CleanNm <- gsub("Mag","Magnitude",CleanNm)
+       CleanNm <- gsub("BodyBody","Body",CleanNm)
+       names(tidyData1) <- CleanNm
  
 #5. Creates a independent tidy data set with the average of each variable/activity/subject	
 	tidyData2<-aggregate(. ~subjectId+activityType, tidyData1, mean) 
