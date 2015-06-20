@@ -2,7 +2,7 @@
    This repo contains the R code and otuput for the course work for getdata-015
    * README.md       : Introdution of the repo 
    * R-code          : run_analysis.R
-   * Tidy data output: tidy_data.txt
+   * Tidy data output: tidyData.txt
    * CookBook.MD     : Variable list
    
 ## Input Data 
@@ -23,7 +23,7 @@ You should create one R script called run_analysis.R that does the following.
 ## Steps to recreate tidy data output 
 * Unzip the downloaded data under R working directory ./UCI HAR Dataset
 * Set the new working directory as ./UCI HAR Dataset using setwd()
-* Run run_analysis.R, which outputs the tidy_data.txt file under ./UCI HAR Dataset
+* Run run_analysis.R, which outputs the tidydata.txt file under ./UCI HAR Dataset
 
 
 
