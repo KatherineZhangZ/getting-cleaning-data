@@ -2,7 +2,7 @@
    This repo contains the R code and otuput for the course work for getdata-015
    * README.md       : Introdution of the repo 
    * R-code          : run_analysis.R
-   * output tidy data: tidy_data.txt
+   * Tidy data output: tidy_data.txt
    * CookBook.MD     : Variable list
    
 ## Input Data 
